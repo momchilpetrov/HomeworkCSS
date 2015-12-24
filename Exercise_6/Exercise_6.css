@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+
+#main_container {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: #42393c;
+}
+
+header {
+	margin-top: 20px;
+	height: 150px;
+	width: 100%;
+}
+
+header h1 {
+	box-sizing: border-box;
+	background-color: #b0780a;
+	height: 40%;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header p {
+	box-sizing: border-box;
+	background-color: #b0780a;
+	height: 60%;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px 30px;
+	line-height: 150%
+}
+
+#first_section {
+	width: 100%;
+	display: inline-block;
+	clear: both;
+}
+
+#first_section *{
+	float: left;
+}
+
+#first_section aside:first-child {	
+	width: 15%;
+	height: 500px;
+	background-color: #6b1f3c;
+}
+
+#first_section article {
+	width: 70%;
+	height: 500px;
+	background-color: #f1f2c6;	
+}
+
+#first_section aside:last-child {
+	width: 15%;
+	height: 500px;
+	background-color: #afc478;
+}
+
+footer {
+	width: 100%;
+	background-color: #42393c;
+	height: 50px;
+}
+
+#first_section aside:first-child h1 {
+	letter-spacing: 0.05em;;
+	line-height: 150%;
+	box-sizing: border-box;
+	width: 80%;
+	background-color: #6f384d;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+}
+
+ul {
+	width: 80%;	
+}
+
+ul li {
+	box-sizing: border-box;
+	color: white;
+	width: 100%;
+	padding: 15px 40px;
+	text-transform: uppercase;
+	background-color: #6f384d;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#first_section article > h1 {
+	letter-spacing: 0.05em;;
+	font-weight: bold;
+	padding: 20px;
+	font-size:20px
+}
+
+#first_section article > p {
+	line-height: 150%;
+	padding:15px 30px;
+	text-align: justify;
+}
+
+#first_section aside:last-child > h1 {
+	letter-spacing: 0.05em;;
+	line-height: 150%;
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #acba87 ;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Exercise 6</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link href="Exercise_6.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="main_container">
+			<header> 			
+				<h1>3col Fixed Header</h1>
+				<p>Exercise uses one graphic with 3 color bars positioned in the 
+				   proper pixel position. Doesn't allow any of the widths to change.
+				   See color note in the content section.</p>					
+			</header>		
+			<section id="first_section" >
+				<aside>	
+						<h1>This is the navigation</h1>		
+						<ul>
+						<li><a href="#">chek</a></li>
+						<li><a href="#">out</a></li>
+						<li><a href="#">my</a></li>
+						<li><a href="#">notes</a></li>
+						</ul>			
+				</aside>
+				<article>
+					<h1>CONTENT: notes on this 3col fixed assignment</h1>
+					<p>As in the 2 column exercise, the color change is detectabale where
+					   the div meets the .jpg background. I used the same hexidecimal number
+					   in the PS doc as was used in the HTML?</p>
+					<p>The exercise uses a main wrapper background image as one fixed strip.
+					   I get serious Float Drop when I resize (reduce) the browser window. I
+					   think that is what "display:inline;/* stops IE doubling margin on float"
+					   is for, but would like further explanation to understand this comment.</p>
+					<p>Is keeping the #wrapper div necessary in a stylesheet if there is also 
+					   going to be separate version wrappers as we have here to contain the
+					   different background images? Or perhaps this is an example of an inner
+					   div as the book suggests? I am still confused of that detail. </p>
+					<p>Even though I have auto margin sets on the wrapper div, the page still
+					   hugs the left side? I have tried it in all of them, but it won't budge? </p>
+					<p>Obviously, this footer has a mind of it's own... It is in the wrapper,
+					   but the "clear" seems to be allowing it outside. However, when i remove
+					   the "clear", it hugs the bottom of the header? </p>
+				</article>				
+				<aside>	
+					<h1>This is the failed right side</h1>				
+				</aside>
+			</section>
+			<section>		
+				<footer>
+				</footer>		
+			</section>
+		</div>
+	</body>
+</html>

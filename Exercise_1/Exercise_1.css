@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+div {
+	width : 1170px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	background-color: #2f613c;
+	height: 100px;
+	margin: 8px;
+}
+
+#first_section {
+	width: 80%;
+	background-color: #18963a;
+	height: 150px;
+	margin: 0 auto;
+}
+
+#second_section {
+	width: 80%;
+	margin: 8px auto;
+}
+
+footer {
+	width: 48.35%;
+	float: left;
+	height: 20px;		
+}
+
+footer:first-child {
+	background-color: #a207b6;
+	margin-right: 15px;
+}
+
+footer:last-child {
+	background-color: #1b40f8;
+	margin-left: 15px;
+}
+
